@@ -1,0 +1,199 @@
+[
+    {
+      "planoDeSaudeAceitos": [1, 3, 5],
+      "email": "clinica1@gmail.com",
+      "nome": "Clínica Saúde Total",
+      "cnpj": 999999999,
+      "senha": "senha123",
+      "endereco": {
+        "cep": 12345678,
+        "rua": "Avenida Central",
+        "numero": 10,
+        "complemento": "Bloco A",
+        "estado": "São Paulo"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [2, 4],
+      "email": "clinica2@gmail.com",
+      "nome": "Clínica Médica do Bem",
+      "cnpj": 999999999,
+      "senha": "senha456",
+      "endereco": {
+        "cep": 98765432,
+        "rua": "Rua Principal",
+        "numero": 25,
+        "complemento": "Sala 3",
+        "estado": "Rio de Janeiro"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [1, 3, 4],
+      "email": "clinica3@gmail.com",
+      "nome": "Clínica Esmeralda",
+      "cnpj": 999999999,
+      "senha": "senha789",
+      "endereco": {
+        "cep": 54321678,
+        "rua": "Rua das Flores",
+        "numero": 7,
+        "complemento": "Andar Superior",
+        "estado": "Minas Gerais"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [2, 5],
+      "email": "clinica4@gmail.com",
+      "nome": "Clínica Vida Plena",
+      "cnpj": 999999999,
+      "senha": "senhaabc",
+      "endereco": {
+        "cep": 87654321,
+        "rua": "Avenida da Paz",
+        "numero": 15,
+        "complemento": "Sala 102",
+        "estado": "Bahia"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [1, 4, 5],
+      "email": "clinica5@gmail.com",
+      "nome": "Clínica Harmonia",
+      "cnpj": 999999999,
+      "senha": "senhaxyz",
+      "endereco": {
+        "cep": 13579246,
+        "rua": "Rua das Palmeiras",
+        "numero": 30,
+        "complemento": "Bloco C",
+        "estado": "Santa Catarina"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [3],
+      "email": "clinica6@gmail.com",
+      "nome": "Clínica Bem Estar",
+      "cnpj": 999999999,
+      "senha": "senha321",
+      "endereco": {
+        "cep": 24681357,
+        "rua": "Avenida da Saúde",
+        "numero": 20,
+        "complemento": "Sala 5",
+        "estado": "Paraná"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [2, 4],
+      "email": "clinica7@gmail.com",
+      "nome": "Clínica Médica Popular",
+      "cnpj": 999999999,
+      "senha": "senha654",
+      "endereco": {
+        "cep": 75395124,
+        "rua": "Rua da Esperança",
+        "numero": 12,
+        "complemento": "Bloco D",
+        "estado": "Rio Grande do Sul"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [1, 3],
+      "email": "clinica8@gmail.com",
+      "nome": "Clínica Nova Vida",
+      "cnpj": 999999999,
+      "senha": "senhazxc",
+      "endereco": {
+        "cep": 36985214,
+        "rua": "Avenida das Oliveiras",
+        "numero": 40,
+        "complemento": "Andar Térreo",
+        "estado": "Ceará"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [1, 2, 4],
+      "email": "clinica9@gmail.com",
+      "nome": "Clínica Mais Saúde",
+      "cnpj": 999999999,
+      "senha": "senhaqwe",
+      "endereco": {
+        "cep": 95175382,
+        "rua": "Rua dos Lírios",
+        "numero": 5,
+        "complemento": "Sala 1",
+        "estado": "Goiás"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [3, 5],
+      "email": "clinica10@gmail.com",
+      "nome": "Clínica do Bem Estar",
+      "cnpj": 999999999,
+      "senha": "senha7890",
+      "endereco": {
+        "cep": 58293476,
+        "rua": "Avenida das Alegrias",
+        "numero": 18,
+        "complemento": "Bloco E",
+        "estado": "Amazonas"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [1, 4],
+      "email": "clinica11@gmail.com",
+      "nome": "Clínica Esperança",
+      "cnpj": 999999999,
+      "senha": "senhaabc123",
+      "endereco": {
+        "cep": 74185296,
+        "rua": "Rua da Fé",
+        "numero": 22,
+        "complemento": "Sala 7",
+        "estado": "Pernambuco"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [2, 3, 5],
+      "email": "clinica12@gmail.com",
+      "nome": "Clínica Bem Viver",
+      "cnpj": 999999999,
+      "senha": "senha123abc",
+      "endereco": {
+        "cep": 36925814,
+        "rua": "Avenida da Esperança",
+        "numero": 33,
+        "complemento": "Bloco F",
+        "estado": "Distrito Federal"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [1],
+      "email": "clinica13@gmail.com",
+      "nome": "Clínica Feliz Vida",
+      "cnpj": 999999999,
+      "senha": "senhaxpto",
+      "endereco": {
+        "cep": 25896314,
+        "rua": "Rua do Sorriso",
+        "numero": 8,
+        "complemento": "Sala 15",
+        "estado": "Espírito Santo"
+      }
+    },
+    {
+      "planoDeSaudeAceitos": [4, 5],
+      "email": "clinica14@gmail.com",
+      "nome": "Clínica Viver Bem",
+      "cnpj": 999999999,
+      "senha": "senha456def",
+      "endereco": {
+        "cep": 63258974,
+        "rua": "Avenida do Bem Estar",
+        "numero": 55,
+        "complemento": "Andar Superior",
+        "estado": "Mato Grosso"
+        }
+    }
+]
+      

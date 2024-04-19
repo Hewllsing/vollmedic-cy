@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "vollmedcy",
     "version": "1.0.0",
     "description": "",
@@ -26,3 +27,31 @@
     }
   }
   
+=======
+  "name": "vollmedcy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open:tablet": "cypress open --config viewportWidth=768 viewportHeight=1024",
+    "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
+    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
+    "test": "cypress run",
+    "test:browser:edge": "cypress run --browser edge",
+    "test:tablet": "cypress run --config viewportWidth=768 viewportHeight=1024"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.7.2",
+    "cypress-wait-until": "^3.0.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-cypress": "^2.15.1",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1"
+  }
+}
+>>>>>>> 513dbdf53565753124ce4a5b914ccc72a61d6f76

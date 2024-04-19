@@ -5,7 +5,7 @@ describe('testes em API', () => {
             cy.loginApi(Cypress.env('email'), Cypress.env('senha'))
 
         })
-        it.skip('GET via url front para teste em resposta da home', () => {
+        it('GET via url front para teste em resposta da home', () => {
             cy.request('GET', '/', { email: "clinica@gmail.com", senha: 4321 
 
             }).then((response) => {
@@ -13,7 +13,7 @@ describe('testes em API', () => {
             })
         })
 
-        it.skip('Deve verificar se o token de autenticação é retornado após login via POST na API', () => {
+        it('Deve verificar se o token de autenticação é retornado após login via POST na API', () => {
             cy.get('@token').should('exist');
         })
     });
@@ -23,7 +23,7 @@ describe('testes em API', () => {
             cy.loginApi(Cypress.env('email'), Cypress.env('senha'))
         })
 
-        it.skip('Requisição incorreta em criação de especialista', ()=>{
+        it('Requisição incorreta em criação de especialista', ()=>{
             cy.request({
                 method: 'POST',
                 url: Cypress.env('api_clinica'),

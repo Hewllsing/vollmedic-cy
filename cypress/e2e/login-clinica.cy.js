@@ -3,7 +3,7 @@ describe('Página de Login', () => {
         cy.visit('')
         cy.contains('Entrar').click()
     })
-    it('Digita email e senha corretos para efetuar o login', { browser: 'firefox' }, () => {
+    it('Digita email e senha corretos para efetuar o login', () => {
         cy.login(Cypress.env('email'), Cypress.env('senha'))
 
     })

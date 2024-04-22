@@ -26,6 +26,13 @@ describe('Usuário logado na página de dashboard', () => {
             cy.get('[type="checkbox"]').should('have.attr', 'aria-label', 'Atende por plano?').and('not.be.checked')
         })
 
+        it.only('Seleciona o botão checkbox "Atende por plano?" para visualizar os planos de saúde', () => {
+            cy.visit('/dashboard')
+            cy.contains('Cadastrar especialista').should('be.visible').click()
+            cy.get('[type="checkbox"]').check()
+            cy.get('form').find('input[type="checkbox"]').should('be.checked').and('not.be.disabled')
+            cy.get('[type="checkbox"]').check(['Sulamerica', 'Unimed', 'Bradesco'])
+        })
     })
 
 })

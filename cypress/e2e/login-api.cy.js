@@ -24,4 +24,61 @@ describe('Testes em API', () => {
         });
 
     });
+
+    context('Validações em respostas da API', () => {
+        beforeEach(() => {
+            cy.loginApi(Cypress.env('email'), Cypress.env('senha'))
+        })
+
+        it('POST em especialistas', () => {
+            cy.get('@especialistas').then((dados) => {
+                const especialista = dados.especialistas[0];
+                cy.request({
+                    method: 'POST',
+                    url: Cypress.env('api_clinica'),
+                    body: {
+                        nome: especialista.nome,
+                        email: especialista.email,
+                        senha: especialista.senha,
+                        endereco: {
+                            cep: especialista.cep,
+                            rua: especialista.rua,
+                            numero: especialista.numero,
+                            complemento: especialista.complemento,
+                            estado: especialista.estado
+                        }
+                    },
+
+                }).then((response) => {
+                    if (response.status !== 201) {
+                        cy.log(`O status ${response.status} não é o padrão 201`)
+                    }
+
+                    expect(response.body).to.have.property('id') // Verifica se a resposta possui a propriedade "id"
+                    expect(response.body).to.have.property('nome')
+                    expect(response.body).to.have.property('email') // Verifica se a propriedade "email" é igual ao valor enviado na requisição
+                })
+            })
+        })
+
+
+
+        it('Requisição incorreta em criação de especialista', () => {
+            cy.request({
+                method: 'POST',
+                url: Cypress.env('api_clinica'),
+                body: {
+                    nome: 'Camila',
+                    email: 'camila123@exemplo',
+                },
+                failOnStatusCode: false
+
+            }).then((response) => {
+                expect(response.status).to.eq(500)
+                expect(response.body).to.have.property('message')
+            })
+
+        })
+
+    })
 });

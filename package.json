@@ -1,16 +1,19 @@
 {
-    "name": "vollmedcy",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-      "cypress": "^13.7.2",
-      "mochawesome": "^7.1.3"
-    }
+  "name": "vollmedcy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
+    "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.2",
+    "mochawesome": "^7.1.3",
+    "eslint": "^8.57.0",
+    "eslint-plugin-cypress": "^2.15.1"
   }
-  
+}

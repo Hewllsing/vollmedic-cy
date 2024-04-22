@@ -1,0 +1,4 @@
+cypress/results/**
+cypress/videos/**
+web/
+server/

@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cy:open:tablet": "cypress open --config viewportWidth=768 viewportHeight=1024",
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
     "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:browser:edge": "cypress run --browser edge",
+    "test:tablet": "cypress run --config viewportWidth=768 viewportHeight=1024"
   },
   "author": "",
   "license": "ISC",

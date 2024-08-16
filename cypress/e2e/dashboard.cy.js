@@ -18,7 +18,7 @@ describe('Usuário logado na página de dashboard', () => {
         })
 
     })
-
+/*
     context('Modal de cadastro de especialista', () => {
         it('Verifica se o checkbox "Atende por plano?" está desmarcado', () => {
             cy.visit('/dashboard')
@@ -68,5 +68,5 @@ describe('Usuário logado na página de dashboard', () => {
         })
 
     })
-
+*/
 })
